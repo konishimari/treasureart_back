@@ -1,0 +1,32 @@
+{
+  "name": "treasureart",
+  "version": "1.0.0",
+  "description": "platform where artist will thrive",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Yugo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.20",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "sharp": "^0.32.6",
+    "util": "^0.12.5",
+    "validator": "^13.11.0",
+    "web3": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
